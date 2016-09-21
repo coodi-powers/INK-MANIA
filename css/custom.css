@@ -1,0 +1,250 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+.overflow-hidden {overflow: hidden;}
+.margin-bottom{ margin-bottom: 30px}
+
+body {
+    background: #ffffff;
+    font: 14px 'Arial', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.428571429;
+    color: #aaaaaa;
+}
+header {
+
+    background: url(../img/160911-ShootInkMania-002Normal.jpg) center top fixed no-repeat;
+    padding: 100px 0 30px 0;
+    background-size: cover;
+}
+
+h4 {
+    font: 20px/25px 'Open Sans';
+    color: #e74c3c;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+}
+
+h3 {
+    font: 45px/45px 'Open Sans';
+    color: #3e454c;
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
+}
+h2 {
+    font: 30px/30px 'Open Sans';
+    color: #2f343b;
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
+}
+
+#contact-form input[type='text'] {
+    width: 100%;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 0;
+    border: 1px solid #f4f5f5;
+    background: #f4f5f5;
+    font: 13px/41px 'Arial';
+    height: 41px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0 14px;
+    resize: none;
+}
+#contact-form textarea {
+    width: 100%;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 258px;
+    border-radius: 0;
+    border: 1px solid #f4f5f5;
+    background: #f4f5f5;
+    font: 13px/41px 'Arial';
+    color: #aaa;
+    text-transform: uppercase;
+    resize: none;
+}
+.googlemap{
+    width: 100%;
+}
+.btn-default.btn1 {
+    box-shadow: none;
+    text-decoration: none !important;
+    display: inline-block;
+    padding: 0 0 0 19px;
+    font: 600 15px/43px 'Open Sans';
+    margin: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: none;
+    border-radius: 0;
+    color: #ffffff;
+    background: #3e454c;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.navbar-brand_ {
+    margin: -20px 0 -20px 0;
+     padding: 0;
+     float: left;
+ }
+
+.div-tickets{
+    color: #e74c3c;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.ttl_tickets{
+    color: #3e454c;
+    text-transform: uppercase;
+}
+.ttl_pics{
+    color: #e74c3c;
+    text-transform: uppercase;
+}
+.events-box{
+    margin-bottom: 60px;
+}
+.subscribe-box {
+    background-size: cover;
+}
+
+.information{
+    color: #2f343b !important;
+    font-family: 'Open Sans';
+    text-transform: none !important;
+}
+
+
+.iwithtext{  margin-bottom: 25px;  }
+.iwt-icon{ font-size: 30px; color: #e74c3c; margin-right: 12px; margin-bottom: 5px;}
+.iwt-text{ font-family: 'Open Sans'; color: #2f343b;}
+
+.iwt-icon p {
+    font: 15px 'Open Sans';
+    color: #e74c3c;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.global {
+    padding: 60px 0 0 0;
+    background: #ffffff;
+}
+
+
+.blok-tickets{
+    margin-bottom: 45px;
+}
+#contact-form .form-div-3 {
+    width: 500px;
+    margin-right: 39px;
+}
+
+#contact-form .radio label {
+    margin: 0;
+}
+
+.billing_information{
+    display: none;
+}
+
+#contact-form .boxnumber input{
+    width: 50px;
+    float: left;
+    margin-right: 15px;
+}
+#contact-form .boxnumber{
+    margin-bottom: 20px;
+}
+
+#owl-demo .owl-item div{
+    padding:5px;
+}
+.owl-item img{
+    display: block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: auto !important;
+    max-width: 100% !important;
+    max-height: 600px;
+}
+.carousel-index img{
+    display: block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: auto !important;
+    max-width: 100% !important;
+    max-height: 200px;
+}
+
+.thumb-pad1 .thumbnail .caption {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.thumb-pad1 .thumbnail figure {
+    width: 50%;
+    text-align: right;
+    margin-right: 0;
+}
+
+.thumb-pad1 .thumbnail figure img {
+    margin-right: 20px;
+}
+
+.promo-box{
+    background-color: #e74c3c;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+.promo-box h4 {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.promo-box a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+input[type=submit] {border: none;}
+
+nav.tm_navbar li a {
+    font: 600 16px 'Open Sans';
+}
+
+@media (max-width: 375px) {
+    .navbar-brand_ img {
+        max-width: 100%;
+    }
+    header{
+        padding: 15px 0 30px 0;
+    }
+    #contact-form .form-div-3{
+        width: 100% !important;
+    }
+}
+@media (max-width: 567px) {
+
+    #contact-form .form-div-3 {
+        float: left;
+        width: 100% !important;
+        margin-right: 39px;
+    }
+}
