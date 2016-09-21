@@ -223,6 +223,11 @@ h2 {
     text-decoration: underline;
 }
 
+.img-partners img{
+    width: 100%;
+}
+
+
 input[type=submit] {border: none;}
 
 nav.tm_navbar li a {
@@ -245,6 +250,20 @@ nav.tm_navbar li a {
     #contact-form .form-div-3 {
         float: left;
         width: 100% !important;
+        margin-right: 39px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navbar-brand_ {
+        margin: -20px 0 -20px 0;
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+    #contact-form .form-div-3 {
+        width: 690px;
         margin-right: 39px;
     }
 }
