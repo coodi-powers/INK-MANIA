@@ -254,6 +254,30 @@
                             <div class="col-lg-12">
                                 <input type="submit" value="Submit" class="btn-default btn2">
                                 <p>* required fields</p>
+
+                            </div>
+
+                            <div class="col-lg-6">
+                                <p>
+                                    <br><br>
+                                    Dear<br><br>
+
+                                    Our new tattoo convention will be held in the Grenslandhallen with over 8.000m² of exhibition space in different halls.
+                                    We take care of a professional decoration and an action-packed programme of extra activities.
+                                    There will be a separate room for the artists to eat and drink and separate artist toilets.<br>
+
+                                    Discover lots of live bands, lowrider shows, skate shows, freak shows, tattoo contests and many more at INK Mania 2017!<br>
+
+                                    We offer artist stands that vary in size slightly, first come first served with the largest and best located stands so be quick!<br>
+
+                                    We also offer exhibitor stands in many size.<br>
+
+                                    We can offer a discount if you book more than 2 booths/stands.<br>
+
+                                    Register here and discover what every booth/stand includes!<br>
+
+                                    For other questions you can fill in the form.<br>
+                                </p>
                             </div>
                     </form>
                 </div>
