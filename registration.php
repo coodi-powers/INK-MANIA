@@ -96,7 +96,7 @@
 
                         if(($_POST['middelnaam'] == '') && ($_POST['shop_name'] != '') && ($_POST['last_name'] != '') && ($_POST['first_name'] != '') && ($_POST['email'] != '')&&
                             ($_POST['phone'] != '')&& ($_POST['street_nr'] != '')&& ($_POST['zip'] != '')&& ($_POST['city'] != '')&& ($_POST['country'] != '')
-                            && (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)))
+                            && ($_POST['booths'] != '')&& (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)))
                         {
 
                             $to      = 'info@inkmania.be';
@@ -112,7 +112,8 @@
                                         Postcode: '.$_POST['zip'].'<br>
                                         Stad: '.$_POST['city'].'<br>
                                         Land: '.$_POST['country'].'<br>
-                                        BTW nummer: '.$_POST['vat'].'<br><br>
+                                        BTW nummer: '.$_POST['vat'].'<br>
+                                        Aantal booths : '.$_POST['booths'].'<br><br>
                                         Bericht / Vragen: '.htmlspecialchars($_POST['message']).'<br>';
 
                             $headers = 'From:'. $_POST['last_name'] .' '. $_POST['first_name'].' <info@inkmania.be>'."\r\n" .
@@ -241,6 +242,13 @@
                                             <input type="text" name="vat" placeholder="VAT number:" value="<?php echo $_POST['vat']; ?>"  />
                                         </label>
                                     </div>
+                            <div class="col-lg-12">
+                                <label class="name form-div-1">
+                                    <input type="text" name="booths" placeholder="How much booths? *" value="<?php echo $_POST['booths']; ?>"  />
+                                    <span class="empty-message">*This field is required.</span>
+                                    <span class="error-message">*This is not a valid email.</span>
+                                </label>
+                            </div>
 
 
                                 <!-- <label class="recaptcha"><span class="empty-message">*This field is required.</span></label> -->
