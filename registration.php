@@ -72,7 +72,7 @@
                 <li><a href="tickets.html">Tickets</a><em></em></li>
                 <li><a href="index.html#anker_program">Program</a><em></em></li>
                 <li><a href="artist.html">Artists</a><em></em></li>
-                <li><a href="sponsors.html">Exhibitor</a><em></em></li>
+                <li><a href="exhibitor.html">Exhibitor</a><em></em></li>
                 <li><a href="registration.php">Registration</a><em></em></li>
                 <li><a href="index.html#anker_practicalinfo">Practical info</a><em></em></li>
                 <li><a href="pictures.html">Pictures</a><em></em></li>
@@ -84,6 +84,7 @@
 <div class="global">
     <div class="container">
         <h3 class="text-center">Artist Registration</h3>
+
     </div>
     <div class="formBox">
         <div class="container">
@@ -166,6 +167,11 @@
 
                                 ?>
                             <div class="col-lg-12">
+                                <p>If you fill out this form, <br>you will automatically get an email with <br>
+                                    all information for a stand and your invoice.<br>
+                                    When we receive your payment, your booth will be reserved finally. <br><br></p>
+                            </div>
+                            <div class="col-lg-12">
                                 <h4>Make your choice</h4>
                                 <div class="radio">
                                     <label><input class="radio_artists" type="radio" name="optradio" value="artists" checked="checked">Artists</label>
@@ -244,7 +250,7 @@
                                     </div>
                             <div class="col-lg-12">
                                 <label class="name form-div-1">
-                                    <input type="text" name="booths" placeholder="How much booths? *" value="<?php echo $_POST['booths']; ?>"  />
+                                    <input type="text" name="booths" placeholder="How many booths? *" value="<?php echo $_POST['booths']; ?>"  />
                                     <span class="empty-message">*This field is required.</span>
                                     <span class="error-message">*This is not a valid email.</span>
                                 </label>
@@ -264,12 +270,12 @@
                                 <p>* required fields</p>
 
                             </div>
-
                             <div class="col-lg-6">
+                                <p><br>
+                                    <b>Note: <br>
+                                        Only 1 artist working @ the same time in 1 booth!</b></p>
                                 <p>
-                                    <br><br>
-                                    Dear<br><br>
-
+                                    <br>
                                     Our new tattoo convention will be held in the Grenslandhallen with over 8.000m² of exhibition space in different halls.
                                     We take care of a professional decoration and an action-packed programme of extra activities.
                                     There will be a separate room for the artists to eat and drink and separate artist toilets.<br>
